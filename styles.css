@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+nav {
+  height: 40px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-content: right;
+  gap: 10px;
+  border: 10px;
+  color: white;
+}
+#NAVI {
+  height: 40px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around ;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  width: 750px;
+  margin-left: 500px;
+}
+a{
+   padding: 10px;
+   text-decoration: none;
+   color: white;
+}
+#NOL {
+  background-color: rgb(18, 168, 18);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  width: 200px;
+  height: 41px;
+  padding-left: 20px;
+}
+main {
+  height: 750px;
+  padding-left: 60px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap; 
+  gap: 10px; 
+  padding-top: 3%;
+}
+
+.MaS {
+  height: 180px;
+  background-color: white;
+  width: 900px;
+  border: 3px solid black;
+  padding: 40px;
+}
+
+.MaS > ul{
+  padding-left: 40px;
+  line-height: 30px;
+}
+
+#rhp {
+  min-height: 560px;
+  width: 400px;
+  display: flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  padding: 20px;
+}
+
+#rhp >h2 {
+  line-height: 30px;
+}
+
+#rhp > p{
+  line-height: 30px;
+}
