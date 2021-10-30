@@ -5,86 +5,72 @@
   font-weight: bold;
   font-family: sans-serif;
 }
-nav {
+#NAVBAR {
   height: 40px;
   background-color: black;
   display: flex;
-  flex-direction: row;
-  align-content: right;
-  gap: 10px;
-  border: 10px;
+  justify-content: space-between;
   color: white;
 }
-#NAVI {
-  height: 40px;
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around ;
-  align-items: center;
-  flex-wrap: wrap;
-  color: white;
-  width: 750px;
-  margin-left: 500px;
-}
+
 a{
    padding: 10px;
    text-decoration: none;
    color: white;
 }
-#NOL {
+#NAVBAR-NOL {
   background-color: rgb(18, 168, 18);
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   align-items:center;
+  flex-wrap: wrap;
   width: 200px;
-  height: 41px;
-  padding-left: 20px;
+  padding-left: 50px;
 }
+.NAVBAR-LINK{
+  display: flex;
+  align-items:center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+
 main {
   height: 750px;
   padding-left: 60px;
   background-color: white;
-  border: 1px solid black;
   display: flex;
   flex-direction:column;
-  justify-content:flex-start;
-  align-items: flex-start;
   flex-wrap: wrap; 
   gap: 10px; 
   padding-top: 3%;
 }
 
-.MaS {
+.mainSection {
   height: 180px;
   background-color: white;
-  width: 900px;
+  width: 750px;
   border: 3px solid black;
   padding: 40px;
 }
 
-.MaS > ul{
+.mainSection > ul{
   padding-left: 40px;
   line-height: 30px;
 }
 
-#rhp {
+#rightPanel {
   min-height: 560px;
-  width: 400px;
+  width: 350px;
   display: flex;
   flex-direction:column;
-  justify-content:flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
   border: 3px solid black;
   padding: 20px;
 }
 
-#rhp >h2 {
+#rightPanel >h2 {
   line-height: 30px;
 }
 
-#rhp > p{
+#rightPanel > p{
   line-height: 30px;
 }
