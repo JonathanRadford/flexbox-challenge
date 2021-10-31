@@ -65,11 +65,11 @@ a{
 .container {
   height: 180px;
   background-color: white;
-  color: white;
+  color: black;
   border: 3px solid black;
   padding: 40px;
   margin: 20px;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .item {
@@ -77,12 +77,3 @@ a{
   margin: 10px;
   background-color: black;
 }
-
-.flex-start{
-  justify-content: flex-start;
-}
-
-.space-around{
-  justify-content: space-around;
-}
-
